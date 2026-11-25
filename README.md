@@ -19,11 +19,12 @@ System Customization · Offline Pinyin Keyboard · Apple Intelligence Routing & 
 
 ### ⭐ Featured Spotlight / 重点推荐：`Lokey`
 
-> **Lokey** 是一款 **1:1 原生手感（零学习适应成本）· 纯离线 · 物理级零联网的 iOS 26 键全拼与双拼中文输入法**。内置自研「**落墨 · Inkstone**」输入引擎（**26 键盲打热区自适应校准、双向神经网络长句语义、句内中英混输、OpenCC 词级简繁与本地自造词记忆**），源码与二进制均不含任何网络框架或数据采集，并支持只读 `mmap` 热挂载 55.3 万词白霜 `.lokeypack` 扩展包。
+> **Lokey** —— 兼顾 **iOS 26 原生手感** 与 **物理级零联网隐私** 的全拼 / 双拼中文输入法。  
+> 严格对齐系统液态玻璃几何与跟手触感，换键盘零磨合；端侧「**落墨 · Inkstone**」引擎集成 26 键拇指热区校准、双向神经长句消歧、无缝中英混输与只读 `mmap` 55.3 万词扩展，18 份核心源码与二进制均不含任何网络符号。
 >
-> *Physically zero-network offline iOS 26-key Full Pinyin & Xiaohe/Ziranma Shuangpin keyboard combining 1:1 native ergonomics (zero learning curve) with the on-device Inkstone engine (adaptive 26-key heatmap, bidirectional neural sentence semantics, inline CN-EN mixed lattice, word-level OpenCC & local user-phrase memory)—source and binaries contain zero networking frameworks or tracking.*
+> *Native iOS 26 feel meets auditable air-gapped privacy. Zero-learning-curve 26-key Full Pinyin & Shuangpin keyboard powered on-device by Inkstone—adaptive thumb heatmaps, neural sentence disambiguation, zero-copy 553k `.lokeypack` mounting, and zero networking symbols.*
 >
-> 🌐 **[Lokey 产品官网 (Showcase)](https://kianuni.github.io/Lokey-Audit/)** · 🔒 **[零联网审计仓 (Lokey-Audit)](https://github.com/Kianuni/Lokey-Audit)** · 📦 **[55.3 万词白霜扩展包 (lokey-frost-pack)](https://github.com/Kianuni/lokey-frost-pack)**
+> 🌐 **[产品官网 (Showcase)](https://kianuni.github.io/Lokey-Audit/)** · ✈️ **[TestFlight 体验](https://testflight.apple.com/join/Bx9gxXTN)** · 🔒 **[零联网审计仓 (Lokey-Audit)](https://github.com/Kianuni/Lokey-Audit)** · 📦 **[55.3 万词白霜包 (lokey-frost-pack)](https://github.com/Kianuni/lokey-frost-pack)**
 
 ---
 
@@ -34,7 +35,7 @@ System Customization · Offline Pinyin Keyboard · Apple Intelligence Routing & 
 | Project | Category / 定位 | What It Does / 核心能力 | Stats |
 | :--- | :--- | :--- | :---: |
 | **[Erosion-CN](https://github.com/Kianuni/Erosion-CN)** | 系统配置 · `MobileGestalt` | Bootloop-safe iOS/iPadOS MobileGestalt toolbox with in-place writes, runtime slot resolution & dual SHA-256 backups.<br>防白苹果安全加固版系统配置工具箱（原位写入、零硬编码偏移、双重原厂备份）。 | ![Stars](https://img.shields.io/github/stars/Kianuni/Erosion-CN?style=flat-square&color=F59E0B&label=) |
-| **[Lokey](https://kianuni.github.io/Lokey-Audit/)** | 纯离线 · 零联网输入法 | 1:1 native iOS feel (zero learning curve), physically zero-network 26-key Full Pinyin & Shuangpin keyboard powered by the Inkstone engine (adaptive 26-key heatmap, bidirectional neural semantics, CN-EN mixed input, word-level OpenCC & local SQLite lexicon) ([`Lokey-Audit`](https://github.com/Kianuni/Lokey-Audit) · [`lokey-frost-pack`](https://github.com/Kianuni/lokey-frost-pack)).<br>1:1 原生手感零适应成本、源码与二进制均不含任何网络框架或数据采集的纯离线 iOS 26 键全拼/双拼输入法；内置「落墨 · Inkstone」引擎（盲打热区自适应校准、双向神经网络长句、句内中英混输、OpenCC 词级简繁与本地自造词记忆），支持 55.3 万词 `.lokeypack` 零拷贝热挂载。 | ![Audit Stars](https://img.shields.io/github/stars/Kianuni/Lokey-Audit?style=flat-square&color=F59E0B&label=) |
+| **[Lokey](https://kianuni.github.io/Lokey-Audit/)** | 纯离线 · 零联网输入法 | 1:1 native iOS 26 feel with on-device Inkstone Pinyin/Shuangpin engine & zero networking symbols ([TestFlight](https://testflight.apple.com/join/Bx9gxXTN) · [`Lokey-Audit`](https://github.com/Kianuni/Lokey-Audit) · [`lokey-frost-pack`](https://github.com/Kianuni/lokey-frost-pack)).<br>1:1 复刻 iOS 26 原生手感，搭载端侧「落墨」引擎与 55.3 万词零拷贝词库扩展，源码级物理零联网。 | ![Audit Stars](https://img.shields.io/github/stars/Kianuni/Lokey-Audit?style=flat-square&color=F59E0B&label=) |
 | **[AppleFlow](https://github.com/Kianuni/AppleFlow)** | 网络分流 · Apple 智能 | Zero-MitM routing rulesets & local config doctor for Apple Intelligence, PCC Photos Clean Up & Chinese Siri ([Web Workbench](https://kianuni.github.io/AppleFlow/)).<br>零 MitM 的 Apple 智能 / 相册消除 / 中文 Siri 极简分流与在线体检台。 | ![Stars](https://img.shields.io/github/stars/Kianuni/AppleFlow?style=flat-square&color=F59E0B&label=) |
 | **[AppleLens](https://github.com/Kianuni/AppleLens)** | macOS 观测 · 真机排障 | Zero-MitM, read-only macOS MenuBar & Workbench for USB iPhone logs, routing probes & PCC transparency reports.<br>纯只读 macOS 菜单栏与工作台，一键排查 Apple 智能与 Siri 真机日志。 | ![Stars](https://img.shields.io/github/stars/Kianuni/AppleLens?style=flat-square&color=F59E0B&label=) |
 | **[Camlo](https://github.com/Kianuni/Camlo)** | 锁屏美学 · 动态壁纸 | 1-tap dynamic, slide-to-unlock morph & 3D depth Lock Screen wallpapers with 76 curated themes (iOS & iPhone Duo).<br>免电脑一键直写上滑变身、裸眼 3D 与动态锁屏，内置 76 套大师壁纸图鉴。 | ![Stars](https://img.shields.io/github/stars/Kianuni/Camlo?style=flat-square&color=F59E0B&label=) |
